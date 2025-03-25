@@ -1,0 +1,24 @@
+
+while true; do
+    clear
+        echo "===== Quiz Game Main Menu ====="
+            echo "1. Start Quiz"
+                echo "2. View Leaderboard"
+                    echo "3. Credits"
+                        echo "4. Exit"
+                            echo "==============================="
+                                echo "Enter your choice: "
+                                    read choice
+
+                                        case "$choice" in
+                                                1) ./quiz.sh ;;
+                                                        2) ./leaderboard.sh show ;;
+                                                                3) ./credits.sh ;;
+                                                                        4) echo "Goodbye!"; exit 0 ;;
+                                                                                *) echo "Invalid choice, please enter 1, 2, 3, or 4." ;;
+                                                                                    esac
+
+                                                                                        echo "Press Enter to return to the main menu..."
+                                                                                            read dummy
+                                                                                            done
+                                                                                            
