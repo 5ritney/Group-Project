@@ -1,7 +1,7 @@
 #!/bin/sh
 
 QUESTIONS_DIR="questions"
-TOTAL_QUESTIONS=5  # Number of questions per quiz, can change for practice/testing
+TOTAL_QUESTIONS=30  # Number of questions per quiz, can change for practice/testing
 SCORE=0
 LEADERBOARD="leaderboard.txt"
 
@@ -38,6 +38,7 @@ for QUESTION_FILE in $QUESTIONS; do
                                                                         SCORE=$((SCORE + 1))
                                                                             else
                                                                                     echo "Sorry, that's the wrong answer..."
+                                                                                    echo "The correct answer was $CORRECT_ANSWER"
                                                                                         fi
                                                                                                 COUNT=$((COUNT + 1))
 
