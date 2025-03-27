@@ -1,17 +1,7 @@
 #!/bin/sh
+
+LEADERBOARD="leaderboard.txt"
 clear
-LEADERBOARD_FILE="leaderboard.txt"
-
-touch "$LEADERBOARD_FILE"
-
-add_score() {
-    echo "$1 $2" >> "$LEADERBOARD_FILE"
-        sort -k2 -nr "$LEADERBOARD_FILE" > "${LEADERBOARD_FILE}.tmp"
-            mv "${LEADERBOARD_FILE}.tmp" "$LEADERBOARD_FILE"
-            }
-
-            show_leaderboard() {
-                clear
                 echo ".------------------------------------------------------------------------------------------------------."
                 echo "|    _                                                      _                                          |"
                 echo "|   / \     _ __    ___     _   _    ___    _   _     ___  | |_   _ __    ___    _ __     __ _         |"
@@ -32,21 +22,13 @@ add_score() {
                 echo "||_.__/   \___| |___/  \__|   (_)   (_)   (_)                                                          |"
                 echo ".------------------------------------------------------------------------------------------------------."
                 echo "===== Leaderboard ====="
-                    cat "$LEADERBOARD_FILE"
-                        echo "======================="
-                        }
 
-                        if [ "$1" = "add" ]; then
-                            if [ -z "$2" ] || [ -z "$3" ]; then
-                                    echo "Usage: $0 add <name> <score>"
-                                            exit 1
-                                                fi
-                                                    add_score "$2" "$3"
-                                                        echo "Score added!"
-                                                        elif [ "$1" = "show" ]; then
-                                                            show_leaderboard
-                                                            else
-                                                                echo "Usage:"
-                                                                    echo "  $0 add <name> <score>   # Add a new score"
-                                                                        echo "  $0 show                 # Show the leaderboard"
-                                                                        fi
+                # Check if the leaderboard file exists and is not empty
+                if [ -s "$LEADERBOARD" ]; then
+                    # Display the leaderboard, which is already sorted in descending order
+                        cat "$LEADERBOARD"
+                        else
+                            echo "No scores recorded yet!"
+                            fi
+
+                            echo "======================="
