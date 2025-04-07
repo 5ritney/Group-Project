@@ -46,13 +46,13 @@ Follow the on-screen instructions to navigate through the menu.
 
 ## 📋 Script Details
 
-- [menu.sh](menu.sh) - ### The main menu script
+- [menu.sh](menu.sh) - ###The main menu script
 • Displays the main menu with options: Start Quiz, View Leaderboard, Credits, and Exit.
 • Uses a while true loop to continuously show the menu until the user chooses Exit.
 • Reads user input and executes corresponding scripts based on the selection.
 • Handles invalid inputs with an error message.
 
-- [quiz.sh](quiz.sh) - ### The quiz logic script
+- [quiz.sh](quiz.sh) -The quiz logic script
 • Loads quiz questions from a predefined list.
 • Uses a loop to present multiple-choice questions.
 • Reads user responses and checks correctness.
