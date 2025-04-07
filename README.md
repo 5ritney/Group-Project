@@ -7,15 +7,15 @@ This is a simple shell script-based Quiz Game with a text-based menu. Players ca
 ## 📂 Repository Structure
   #The **Repository Structure** section provides an overview of the files and their roles within the project. It uses a tree-like format to    show how different scripts are organized in the quiz-game/ directory. Each script has a brief comment explaining its function, making it    easier for users to understand the project's structure at a glance.
 
-quiz-game/
+```quiz-game/
 ├── menu.sh          # Main menu script
 ├── quiz.sh          # Quiz logic script
 ├── leaderboard.sh   # Leaderboard management script
 ├── credits.sh       # Credits display script
 ├── LICENSE          # License information
 └── README.md        # Project documentation
+```
 
- quiz-game/ ├── menu.sh # Main menu script ├── quiz.sh # Quiz logic script ├── leaderboard.sh # Leaderboard management script ├── credits.sh # Credits display script ├── LICENSE # License information └── README.md # Project documentation
  
 ## ✨ Features
   #The **Features** section highlights the key functionalities of the quiz game. It lists the main capabilities, such as navigating the       interactive menu, starting a quiz, viewing the leaderboard, checking credits, and exiting the game. Each feature links to the respective    script that implements it, making it easy for users to understand how the game works
