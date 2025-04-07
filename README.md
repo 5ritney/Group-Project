@@ -92,6 +92,7 @@ You can add or modify question files in the questions/ directory. Any new questi
 [number]    ← final line is the correct answer (e.g., 1)
 
 Customization
+
 To change the number of questions asked during a game, edit the following line in quiz.sh:
 
 
