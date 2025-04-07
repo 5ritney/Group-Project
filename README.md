@@ -1,6 +1,18 @@
 # Shell quiz game
 This is a terminal-based multiple-choice quiz game written in `sh`. The game randomly selects questions from a pool and keeps track of high scores in a leaderboard.
 
+Shell Quiz Game/
+├── menu.sh             Main menu script where users choose to play, view leaderboard, or credits
+├── quiz.sh             Handles gameplay: loads questions, checks answers, tracks score
+├── leaderboard.sh      Displays and sorts scores stored in leaderboard.txt
+├── credits.sh          Shows project credits in ASCII art
+├── leaderboard.txt     Stores player names and scores
+└── questions/          Folder containing question files
+    ├── quest1
+    ├── quest2
+    ├── ...
+    └── quest30         Each file contains a question, four options, and the correct answer
+
 How to run:
 1. Open a terminal.
 2. Open the quiz directory and run the command 'sh menu.sh' to enter the main menu
