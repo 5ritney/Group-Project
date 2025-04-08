@@ -159,7 +159,7 @@ We welcome contributions! To contribute:
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the (LICENSE) file for details.
+No official license is provided. All rights reserved unless stated otherwise.
 
 ## 📊 Leaderboard Example
 
