@@ -114,28 +114,28 @@ Enter your answer:
 
 ## 📋 Script Details
 
-- [menu.sh](menu.sh) - The main menu script
-• Displays the main menu with options: Start Quiz, View Leaderboard, Credits, and Exit.
-• Uses a while true loop to continuously show the menu until the user chooses Exit.
-• Reads user input and executes corresponding scripts based on the selection.
-• Handles invalid inputs with an error message.
+• [menu.sh](menu.sh) - The main menu script
+- Displays the main menu with options: Start Quiz, View Leaderboard, Credits, and Exit.
+- Uses a while true loop to continuously show the menu until the user chooses Exit.
+- Reads user input and executes corresponding scripts based on the selection.
+- Handles invalid inputs with an error message.
 
-- [quiz.sh](quiz.sh) - The quiz logic script
-• Loads quiz questions from a predefined list.
-• Uses a loop to present multiple-choice questions.
-• Reads user responses and checks correctness.
-• Keeps track of the user's score.
-• Stores results for leaderboard tracking.
+• [quiz.sh](quiz.sh) - The quiz logic script
+- Loads quiz questions from a predefined list.
+- Uses a loop to present multiple-choice questions.
+- Reads user responses and checks correctness.
+- Keeps track of the user's score.
+- Stores results for leaderboard tracking.
 
-- [leaderboard.sh](leaderboard.sh) - Leaderboard management script
-Displays and updates the leaderboard.
-• Reads scores from a saved file (e.g., leaderboard.txt).
-• Sorts and displays the top players.
-• Allows updating the leaderboard after each quiz attempt.
+• [leaderboard.sh](leaderboard.sh) - Leaderboard management script
+- Displays and updates the leaderboard.
+- Reads scores from a saved file (e.g., leaderboard.txt).
+- Sorts and displays the top players.
+- Allows updating the leaderboard after each quiz attempt.
 
-- [credits.sh](credits.sh) - Displays the credits of the game
-• Displays the list of contributors and developers.
-• Uses echo commands to print information.
+• [credits.sh](credits.sh) - Displays the credits of the game
+- Displays the list of contributors and developers.
+- Uses echo commands to print information.
 
 
 
