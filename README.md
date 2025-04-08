@@ -146,7 +146,7 @@ We welcome contributions! To contribute:
 
 1. **Fork** the repository.
 
-2. I **Create** a new branch:
+2. **Create** a new branch:
    git checkout -b feature-branch
 
 3. **Commit** your changes:
@@ -159,7 +159,7 @@ We welcome contributions! To contribute:
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE] file for details.
+This project is licensed under the MIT License - see the (LICENSE) file for details.
 
 ## 📊 Leaderboard Example
 
